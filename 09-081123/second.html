@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Osobni blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Page 1</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Page 2</a>
+        </li>
+      </ul>
+
+      <figure class="text-center">
+        <h1><strong>Komentare</strong></h1>
+    </figure>
+    <p>
+       <strong> Drahí komentátoři</strong>,
+
+       <br> Děkuji vám za vaši podporu a komentáře na mém blogu "Mé cestování ke zdravějšímu životnímu stylu." Vaše reakce jsou pro mě cenné a motivují mě k dalšímu psaní.
+    <br>Pokud máte nápady na budoucí témata nebo otázky ohledně zdravého života, neváhejte napsat. Jsem tady pro vás.
+        <br>Těším se na další diskuzi a sdílení na našem společném cestování ke zdraví a štěstí.
+    <button class="btn btn-link" data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip" data-bs-title="Toto tlacitko vas presmeruje na knihu na zdrave recepty">
+        <a href="https://jimezdrave.cz/shop/kucharky/jime-zdrave-podle-planu-456/?gad=1&gclid=EAIaIQobChMI3NX3o_izggMV2pWDBx2mUw4ZEAAYASAAEgLcIfD_BwE">Kniha na recepty</a>
+    </button>
+    </p>
+
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Komentare</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Pepino</h4>
+        <p>Skvělý článek! Moc mě inspiruješ k lepšímu zdraví.</p>
+        <h4 id="scrollspyHeading2">Kajel12</h4>
+        <p>Jaký je tvůj nejoblíbenější zdravý recept?</p>
+        <h4 id="scrollspyHeading3">FR_antik</h4>
+        <p>Cvičím také, díky za tipy na cvičení!</p>
+        <h4 id="scrollspyHeading4">Ondzik12buzi</h4>
+        <p>Tvoje příběhy mě motivují k pozitivním změnám.</p>
+        <h4 id="scrollspyHeading5">Danicek_buzicek</h4>
+        <p>Důležité je dbát na rovnováhu v životě, souhlasím.</p>
+        <h4 id="scrollspyHeading5">Josefka</h4>
+        <p>Jak se vyrovnáváš se stresem? Mám problémy s tím taky.</p>
+        <h4 id="scrollspyHeading5">Tadas_meg4_cernej</h4>
+        <p>Moc se těším na další články!</p>
+        <h4 id="scrollspyHeading5">Jojc456</h4>
+        <p>Díky za skvělý recept, vyzkouším ho určitě.</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+
+</html>
